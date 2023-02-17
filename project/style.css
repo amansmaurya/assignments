@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,
+      url("./assets/bgcimg.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    margin-top: 50px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgb(241, 241, 152);
+}
+.logo{
+
+}
+.list-item{
+    cursor: pointer;
+}
+.button-small{
+    padding: 12px 50px;
+    background-color: #ff505f;
+    border: none;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffff;
+    cursor: pointer;
+}
+.hero{
+   max-width: 1154px;
+   margin:0 auto;
+   text-align: center;
+   margin-top: 120px; 
+
+}
+.hero-heading{
+    font-family: "dela gothic one", cursive;
+    font-style: normal;
+    font-weight: 400;
+
+    font-size: 100px;
+    line-height: 114px;
+    color: rgb(231, 231, 18);
+
+}
+.button-large{
+    background-color: #ff505f;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: rgb(248, 248, 248);
+    border: none;
+    padding: 24px 56px;
+    margin-top: 64px;
+    cursor: pointer;
+
+}
+.button{
+    position:absolute;
+    bottom: 2px;
+    right: 4px;
+}
